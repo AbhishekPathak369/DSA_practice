@@ -1,0 +1,147 @@
+import java.util.*;
+
+class Solution {
+    public boolean canPartition(int[] nums) {
+
+        int n = nums.length;
+
+        // 🔢 Step 1: total sum निकालो
+        int sum = 0;
+        for(int i = 0; i < n; i++){
+            sum += nums[i];
+        }
+
+        // ❌ अगर sum odd है → equal partition impossible
+        if(sum % 2 != 0) return false;
+
+        // 🎯 target = sum/2 (hume sirf itna subset banana hai)
+        int target = sum / 2;
+
+        // dp[index][currentSum] = -1 (not visited), 0 (false), 1 (true)
+        int dp[][] = new int[n][target + 1];
+
+        // initially sab -1
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i], -1);
+        }
+
+        // recursion start (index=0, sum=0)
+        int ans = help(nums, dp, 0, 0, target);
+
+        return ans == 1;
+    }
+
+    public static int help(int nums[], int dp[][], int count, int n, int target){
+
+        // 🎯 agar target mil gaya → success
+        if(count == target) return 1;
+
+        // 🚫 agar array khatam ho gaya → fail
+        if(n >= nums.length) return 0;
+
+        // 🚫 agar sum exceed ho gaya → useless path
+        if(count > target) return 0;
+
+        // ⚡ memoization (already solved case)
+        if(dp[n][count] != -1) return dp[n][count];
+
+        // ✅ choice 1: element lo
+        int take = help(nums, dp, count + nums[n], n+1, target);
+
+        // ❌ choice 2: element skip karo
+        int left = help(nums, dp, count, n+1, target);
+
+        // result store karo
+        return dp[n][count] = (take == 1 || left == 1) ? 1 : 0;
+    }
+}
+
+🧠 Concept (Clear Understanding)
+
+👉 Equal partition =
+
+Find subset with sum = totalSum / 2
+
+👉 Kyun?
+
+अगर एक subset = S/2
+तो बाकी automatically = S/2
+⚡ Revision Notes (Quick)
+
+👉 Step-by-step:
+
+Total sum निकालो
+If odd → return false
+target = sum/2
+subset sum DP लगाओ
+
+👉 State:
+
+dp[index][currentSum]
+
+👉 Base Cases:
+
+count == target → true
+index == n → false
+count > target → false
+
+👉 Choices:
+
+take element
+not take
+
+👉 Time Complexity:
+
+O(n * target)
+🧩 Mini Dry Run
+nums = [1,5,11,5]
+sum = 22 → target = 11
+
+👉 Path:
+
+1 → 5 → 5 → sum = 11 ✅
+
+👉 Partition:
+
+[1,5,5] and [11]
+🎤 Interview Explanation (Short & Perfect)
+
+👉
+“I first check if the total sum is even. Then I convert the problem into subset sum with target = sum/2. I use recursion with memoization where at each index I decide to include or exclude the element. The DP state is (index, currentSum), and time complexity is O(n * target).”
+
+🔁 Counter Interview Questions
+❓ Q1: Why check sum % 2 != 0?
+
+👉 Odd sum cannot be divided into two equal integer parts
+
+❓ Q2: Why only sum/2?
+
+👉 Because:
+
+subset1 = S/2 → subset2 automatically = S/2
+❓ Q3: Why DP?
+
+👉 To avoid recomputation of same (index, sum) states
+
+❓ Q4: Can we optimize space?
+
+👉 Yes → use 1D DP array (boolean[target+1])
+
+❓ Q5: What if negative numbers allowed?
+
+👉 This approach fails ❌
+Need different technique (offset / hashmap)
+
+🔥 Common Mistakes (you almost did)
+
+❌ count == sum - count
+❌ not checking odd sum
+❌ wrong DP state
+
+🧠 Final Memory Trick
+
+👉
+“Partition = Subset Sum (target = sum/2)”
+
+अगर next level जाना है 🚀
+तो मैं तुम्हें इसका 1D DP (most optimized + interviewer favorite) version dry run के साथ सिखा दूँ 👍
