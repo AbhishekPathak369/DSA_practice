@@ -1,0 +1,128 @@
+🧠 Approach (Short & Clear – Interview Ready)
+
+👉 Problem: Subset sum possible hai ya nahi
+
+Idea:
+
+Har element ke liye 2 choices:
+Include (take)
+Exclude (not take)
+Hum check karte hain kya kisi path se sum ban सकता है
+Repeated work avoid करने के लिए DP (memoization) use किया
+
+👉 State:
+
+(index, currentSum)
+💻 Code with Child-Level Comments
+import java.util.*;
+
+class Solution {
+
+    static Boolean isSubsetSum(int arr[], int sum) {
+        int n = arr.length;
+
+        // dp[index][sum] = -1 (not visited), 0 (false), 1 (true)
+        int dp[][] = new int[n+1][sum+1];
+
+        // initially sab -1 (means not calculated)
+        for(int i = 0; i <= n; i++){
+            Arrays.fill(dp[i], -1);
+        }
+
+        // start from index 0 and sum = 0
+        int ans = help(arr, sum, 0, dp, 0);
+
+        return ans == 1;
+    }
+
+    public static int help(int arr[], int sum, int n, int dp[][], int count){
+
+        // 🎯 Agar required sum mil gaya → success
+        if(count == sum) return 1;
+
+        // 🚫 Agar array khatam ho gaya → fail
+        if(n == arr.length) return 0;
+
+        // 🚫 Agar sum exceed ho gaya → useless path
+        if(count > sum) return 0;
+
+        // ⚡ Already calculated → return stored answer
+        if(dp[n][count] != -1) return dp[n][count];
+
+        // ✅ Choice 1: current element lo
+        int take = help(arr, sum, n+1, dp, count + arr[n]);
+
+        // ❌ Choice 2: current element skip karo
+        int left = help(arr, sum, n+1, dp, count);
+
+        // store result (agar koi bhi true hai → true)
+        return dp[n][count] = (take == 1 || left == 1) ? 1 : 0;
+    }
+}
+⚡ Revision Notes (Exam Quick View)
+
+👉 State:
+dp[index][sum]
+
+👉 Base Case:
+
+sum mil gaya → true
+array end → false
+sum exceed → false
+
+👉 Choices:
+
+take → count + arr[n]
+not take
+
+👉 DP values:
+
+-1 → not visited
+1 → true
+0 → false
+
+👉 Time Complexity:
+O(n * sum)
+
+🧩 Dry Run (Very Short)
+arr = [2,3,7], sum = 5
+
+Path:
+2 → take → sum=2
+3 → take → sum=5 ✅ (answer true)
+🎤 Interview Answer (Best Short Version)
+
+👉 “I solved this using recursion with memoization.
+For each element, I either include it or exclude it.
+I maintain a state (index, currentSum).
+If currentSum becomes equal to target, I return true.
+To avoid recomputation, I use a 2D DP array.
+Time complexity is O(n * sum).”
+
+🔁 Counter Questions (Very Important)
+❓ Q1: Why 2D DP?
+
+👉 Because state depends on:
+
+index
+current sum
+❓ Q2: Can we optimize space?
+
+👉 Yes → use 1D DP (tabulation)
+
+❓ Q3: Why not greedy?
+
+👉 Because subset combinations matter, not just local choice
+
+❓ Q4: What if negative numbers allowed?
+
+👉 This solution fails ❌
+Need different approach (offset / hashmap)
+
+❓ Q5: Can we solve without recursion?
+
+👉 Yes → Bottom-up DP (tabulation)
+
+🔥 Final Memory Trick
+
+👉 “Subset sum = Take / Not Take + DP(index, sum)”
