@@ -1,1 +1,176 @@
 
+import java.util.*;
+
+class Solution {
+    public boolean exist(char[][] board, String word) {
+
+        int n = board.length;
+        int m = board[0].length;
+
+        // 👀 visited array (track karega kaunse cell already use hue)
+        boolean vis[][] = new boolean[n][m];
+
+        // 🔤 word ka first character
+        char first = word.charAt(0);
+
+        // 🔁 Step 1: har cell se start try karo
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+
+                // ✅ agar first char match kare
+                if(board[i][j] == first){
+
+                    vis[i][j] = true; // mark visited
+
+                    // 🚀 DFS start karo next index se
+                    if(help(board, word, vis, i, j, 1)){
+                        return true;
+                    }
+
+                    // 🔙 backtrack (important)
+                    vis[i][j] = false;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public boolean help(char board[][], String s, boolean vis[][],
+                        int row, int col, int idx){
+
+        // 🎯 agar pura word match ho gaya
+        if(idx == s.length()) return true;
+
+        // 🚫 safety check
+        if(idx > s.length()) return false;
+
+        // ➡️⬅️⬆️⬇️ 4 directions
+        int dire[][] = {{1,0},{-1,0},{0,-1},{0,1}};
+
+        char now = s.charAt(idx);
+
+        // 🔁 har direction explore karo
+        for(int i = 0; i < 4; i++){
+
+            int newr = row + dire[i][0];
+            int newc = col + dire[i][1];
+
+            // ✅ boundary check
+            if(newr >= 0 && newc >= 0 &&
+               newr < board.length && newc < board[0].length){
+
+                // ✅ char match + not visited
+                if(now == board[newr][newc] && vis[newr][newc] == false){
+
+                    vis[newr][newc] = true; // mark
+
+                    // 🚀 next recursion
+                    if(help(board, s, vis, newr, newc, idx + 1)){
+                        return true;
+                    }
+
+                    // 🔙 backtrack
+                    vis[newr][newc] = false;
+                }
+            }
+        }
+
+        return false;
+    }
+}
+
+🧠 Concept (Clear Understanding)
+
+👉 Ye problem hai Backtracking + DFS on grid
+
+👉 Har cell se try karte hain:
+
+Agar first character match kare → DFS start
+
+👉 Har step pe:
+
+4 direction explore karo
+Agar path galat → wapas aao (backtrack)
+⚡ Revision Notes (Quick)
+
+👉 Pattern:
+Backtracking + Grid DFS
+
+👉 Steps:
+
+Har cell se start
+Match first char
+DFS + explore 4 directions
+Visited use karo
+Backtrack zaroor karo
+
+👉 State:
+(row, col, index)
+
+👉 Base Case:
+
+idx == word.length() → TRUE
+
+👉 Directions:
+
+{{1,0},{-1,0},{0,1},{0,-1}}
+
+👉 Time Complexity:
+👉 O(N * M * 4^L)
+
+🧩 Mini Dry Run
+
+board:
+
+A B C
+D E F
+G H I
+
+word = "ABE"
+
+👉 Path:
+A → B → E ✅
+
+🎤 Interview Explanation (Short & Perfect)
+
+👉
+“I use DFS with backtracking. I try starting from every cell that matches the first character. Then I recursively explore all 4 directions while marking cells as visited. If the path fails, I backtrack by unmarking the cell. The base case is when all characters of the word are matched.”
+
+🔁 Counter Interview Questions
+❓ Q1: Why visited array?
+
+👉 Same cell reuse avoid karne ke liye
+
+❓ Q2: Can we solve without visited?
+
+👉 Yes 👇
+
+board[r][c] = '#'; // mark
+// DFS
+board[r][c] = original; // restore
+❓ Q3: Why backtracking needed?
+
+👉 Ek path fail ho sakta hai → doosra try karna padega
+
+❓ Q4: Worst-case complexity?
+
+👉 O(N * M * 4^L)
+
+❓ Q5: Can diagonals be used?
+
+👉 Yes → 8 directions bana do
+
+🔥 Common Mistakes
+
+❌ Backtracking bhool jana
+❌ Visited check miss karna
+❌ Boundary condition galat
+❌ idx handling wrong
+
+🧠 Final Memory Trick
+
+👉
+“Start from every cell → 4 direction explore → galat hua to undo (backtrack)”
+
+If you want next level 🚀
