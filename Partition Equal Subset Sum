@@ -36,7 +36,7 @@ class Solution {
         // 🎯 agar target mil gaya → success
         if(count == target) return 1;
 
-        // 🚫 agar array khatam ho gaya → fail
+        //  agar array khatam ho gaya → fail
         if(n >= nums.length) return 0;
 
         // 🚫 agar sum exceed ho gaya → useless path
