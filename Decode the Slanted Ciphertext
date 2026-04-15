@@ -3,7 +3,7 @@ public:
     string decodeCiphertext(string s, int rows) {
         if(s.empty()) return s;
 // l
-        int n = s.size()
+        int n = s.size();
         int cols = (n + rows - 1) / rows;
 
         string res;
