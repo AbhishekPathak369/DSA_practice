@@ -1,0 +1,47 @@
+class Solution {
+    public int longestPalindromeSubseq(String s) {
+        
+        int n = s.length();
+
+        // dp[i][j] → longest palindrome subsequence length in substring i to j
+        int dp[][] = new int[n][n];
+
+        // initialize dp with -1 (for memoization)
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i], -1);
+        }
+
+        // solve for full string
+        return help(s, 0, n - 1, dp);
+    }
+
+    public int help(String s, int i, int j, int dp[][]){
+
+        // case 1: invalid range
+        if(i > j) return 0;
+
+        // case 2: single character → always palindrome of length 1
+        if(i == j) return 1;
+
+        // if already computed, return stored result
+        if(dp[i][j] != -1) return dp[i][j];
+
+        int curr = 0;
+
+        // case 3: characters match
+        if(s.charAt(i) == s.charAt(j)) {
+            // include both characters
+            curr = help(s, i + 1, j - 1, dp) + 2;
+        } 
+        else {
+            // case 4: characters don't match → try both options
+            curr = Math.max(
+                help(s, i + 1, j, dp),
+                help(s, i, j - 1, dp)
+            );
+        }
+
+        // store result in dp and return
+        return dp[i][j] = curr;
+    }
+}
