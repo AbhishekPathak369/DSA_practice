@@ -1,0 +1,118 @@
+🔥 Complete Commented Code (Clean + Correct)
+class Solution {
+    public int maxProfit(int[] prices) {
+        int n = prices.length;
+
+        // dp[idx][turn]
+        // idx → current day
+        // turn → 0 = BUY allowed, 1 = SELL allowed
+        int dp[][] = new int[n][2];
+
+        // initialize with -1
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i], -1);
+        }
+
+        return help(prices, 0, 0, dp);
+    }
+
+    public int help(int[] prices, int idx, int turn, int dp[][]){
+
+        // Base case: no days left
+        if(idx >= prices.length) return 0;
+
+        // Already computed
+        if(dp[idx][turn] != -1) return dp[idx][turn];
+
+        int profit = 0;
+
+        // BUY allowed
+        if(turn == 0){
+            int buy = -prices[idx] + help(prices, idx+1, 1, dp);
+            int skip = help(prices, idx+1, 0, dp);
+
+            profit = Math.max(buy, skip);
+        }
+        else{
+            // SELL allowed
+            int sell = prices[idx] + help(prices, idx+2, 0, dp); // cooldown
+            int skip = help(prices, idx+1, 1, dp);
+
+            profit = Math.max(sell, skip);
+        }
+
+        return dp[idx][turn] = profit;
+    }
+}
+🎮 Intuition (Game Visualization)
+State	Meaning
+turn = 0	You don’t have stock → can BUY
+turn = 1	You have stock → can SELL
+🔥 Why idx + 2 ?
+
+👉 After selling:
+
+Day i → SELL
+Day i+1 → cooldown (no action)
+Next possible → i+2
+🧠 Profit Logic (VERY IMPORTANT)
+Buy = -price
+Sell = +price
+
+👉 So automatically:
+
+profit = sell - buy
+📌 REVISION NOTES
+Problem = Cooldown stock problem
+DP = 2D → (idx, turn)
+No need of k
+Sell → jump idx + 2
+Buy → go to idx + 1
+DP stores future max profit
+⚡ Quick Click Points
+State: (idx, buy/sell)
+Cooldown handled by idx+2
+Time: O(n * 2)
+Space: O(n * 2)
+Memoization avoids recomputation
+⚠️ Common Mistakes
+
+❌ Using idx+1 after sell
+❌ Forgetting cooldown
+❌ Using k (not needed here)
+❌ Thinking subtraction needed
+
+🎤 Interview Counter Questions
+1. Why no k here?
+
+👉 Because transactions are unlimited (only cooldown constraint)
+
+2. Why idx + 2 after sell?
+
+👉 Due to cooldown (1 day rest)
+
+3. Can we solve without DP?
+
+👉 Yes, using greedy + states (but DP is safer)
+
+4. Can we optimize space?
+
+👉 Yes → only 3 variables needed
+
+5. What if no cooldown?
+
+👉 Then it becomes simple unlimited transactions problem
+
+🚀 Bonus: Space Optimized Idea
+
+Instead of dp array, track:
+
+aheadBuy
+aheadSell
+ahead2Buy
+
+👉 reduces space to O(1)
+
+🧾 Final One-Line Summary
+
+👉 “At each day, choose buy/sell/skip while handling cooldown using idx+2.”
