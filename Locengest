@@ -8,7 +8,7 @@ class Solution {
         Arrays.fill(dp[i],-1);
       }
 
-    return help(S1,S2,n1-1,n2-1,dp);
+    return help(S1,S2,n1-1,n2-1,dp);  
 
     }
     public int help(String S1, String S2,int n1, int n2,int dp[][]){
