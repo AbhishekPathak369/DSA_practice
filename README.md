@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0064-minimum-path-sum) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0064-minimum-path-sum) |
@@ -73,4 +75,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0509-fibonacci-number) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
