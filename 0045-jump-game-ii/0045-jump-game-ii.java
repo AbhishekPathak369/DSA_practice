@@ -1,4 +1,5 @@
 class Solution {
+   //jai shree ram
     public int jump(int[] nums) {
         int n = nums.length;
 
