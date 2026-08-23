@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0509-fibonacci-number](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0509-fibonacci-number) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Binary Search
 |  |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0064-minimum-path-sum) |
+| [0509-fibonacci-number](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0509-fibonacci-number) |
 | [1043-partition-array-for-maximum-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1043-partition-array-for-maximum-sum) |
 ## Matrix
 |  |
@@ -63,4 +65,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0055-jump-game) |
+## Recursion
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0509-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
