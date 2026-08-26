@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0064-minimum-path-sum) |
 | [0088-merge-sorted-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0283-move-zeroes](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0283-move-zeroes) |
 | [0918-maximum-sum-circular-subarray](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1043-partition-array-for-maximum-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1043-partition-array-for-maximum-sum) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -110,4 +111,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0088-merge-sorted-array) |
+| [0283-move-zeroes](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
