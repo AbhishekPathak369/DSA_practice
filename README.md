@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0006-zigzag-conversion](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0006-zigzag-conversion) |
 | [0020-valid-parentheses](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0020-valid-parentheses) |
+| [0344-reverse-string](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0344-reverse-string) |
 ## Database
 |  |
 | ------- |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0283-move-zeroes) |
+| [0344-reverse-string](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0344-reverse-string) |
 ## Hash Table
 |  |
 | ------- |
