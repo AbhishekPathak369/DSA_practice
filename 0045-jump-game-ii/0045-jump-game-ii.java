@@ -17,6 +17,7 @@ class Solution {
             if(min >next + 1){
                 min =next + 1;
             }
+            // Math.min(min,next +1)
            
         }
         return dp[i] = min;
