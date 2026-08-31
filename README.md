@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0283-move-zeroes](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0283-move-zeroes) |
+| [0416-partition-equal-subset-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0416-partition-equal-subset-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0496-next-greater-element-i) |
 | [0704-binary-search](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0704-binary-search) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0064-minimum-path-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0509-fibonacci-number) |
 | [0918-maximum-sum-circular-subarray](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1043-partition-array-for-maximum-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1043-partition-array-for-maximum-sum) |
@@ -148,4 +150,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0054-spiral-matrix) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0416-partition-equal-subset-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
