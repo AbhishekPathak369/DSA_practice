@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0006-zigzag-conversion) |
 | [0020-valid-parentheses](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0020-valid-parentheses) |
 | [0344-reverse-string](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0344-reverse-string) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Database
 |  |
 | ------- |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0055-jump-game) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Recursion
 |  |
 | ------- |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0442-find-all-duplicates-in-an-array) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -137,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0001-two-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0496-next-greater-element-i) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Stack
 |  |
 | ------- |
