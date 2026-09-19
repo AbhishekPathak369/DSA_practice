@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0704-binary-search) |
 | [0918-maximum-sum-circular-subarray](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0918-maximum-sum-circular-subarray) |
 | [1043-partition-array-for-maximum-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1043-partition-array-for-maximum-sum) |
+| [2615-sum-of-distances](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2615-sum-of-distances) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Math
 |  |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0496-next-greater-element-i) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [2615-sum-of-distances](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2615-sum-of-distances) |
 ## Stack
 |  |
 | ------- |
@@ -171,4 +173,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1401-circle-and-rectangle-overlapping](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1401-circle-and-rectangle-overlapping) |
+## Prefix Sum
+|  |
+| ------- |
+| [2615-sum-of-distances](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2615-sum-of-distances) |
 <!---LeetCode Topics End-->
