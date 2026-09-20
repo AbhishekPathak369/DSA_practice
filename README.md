@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0020-valid-parentheses) |
 | [0344-reverse-string](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0344-reverse-string) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [3498-reverse-degree-of-a-string](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3498-reverse-degree-of-a-string) |
 ## Database
 |  |
 | ------- |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0054-spiral-matrix) |
+| [3498-reverse-degree-of-a-string](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3498-reverse-degree-of-a-string) |
 ## Knapsack Problem
 |  |
 | ------- |
