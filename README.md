@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0006-zigzag-conversion](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0006-zigzag-conversion) |
 | [0020-valid-parentheses](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0020-valid-parentheses) |
 | [0344-reverse-string](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0344-reverse-string) |
+| [1096-brace-expansion-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [3498-reverse-degree-of-a-string](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3498-reverse-degree-of-a-string) |
 ## Database
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0442-find-all-duplicates-in-an-array) |
+| [1096-brace-expansion-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 ## Heap (Priority Queue)
 |  |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0001-two-sum) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0496-next-greater-element-i) |
+| [1096-brace-expansion-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2615-sum-of-distances](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2615-sum-of-distances) |
 ## Stack
@@ -150,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0020-valid-parentheses) |
 | [0496-next-greater-element-i](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0496-next-greater-element-i) |
+| [1096-brace-expansion-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1096-brace-expansion-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -179,4 +183,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2615-sum-of-distances](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2615-sum-of-distances) |
+## Backtracking
+|  |
+| ------- |
+| [1096-brace-expansion-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1096-brace-expansion-ii) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1096-brace-expansion-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1096-brace-expansion-ii) |
 <!---LeetCode Topics End-->
