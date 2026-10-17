@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2615-sum-of-distances](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2615-sum-of-distances) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Math
 |  |
 | ------- |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/AbhishekPathak369/DSA_practice/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1096-brace-expansion-ii](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/AbhishekPathak369/DSA_practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2615-sum-of-distances](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2615-sum-of-distances) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/AbhishekPathak369/DSA_practice/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/AbhishekPathak369/DSA_practice/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 ## Stack
 |  |
 | ------- |
